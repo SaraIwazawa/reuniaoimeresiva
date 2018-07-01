@@ -1,0 +1,872 @@
+body{
+    background-color: #181825;
+}
+::placeholder{
+    color: white;
+}
+.botao_dados_cadastro{
+    width: 10.5em;
+    background-color: #0071bc;
+    height: 3em;
+    margin-bottom: 2em;
+    margin-right: 0.9em;
+    border-radius: 0;
+    padding: 1em  1em 1em 3em;
+    color: white;
+}
+.entrar_banner{
+    color: #0071bc;
+     margin-bottom: 2em;
+    font-size: 2em;
+    border-bottom: 3px solid #0071bc;
+    width: 50%;
+    text-align: center;
+    transform: translateX(50%);
+}
+
+.inscrevase_banner{
+    color: #0071bc;
+     margin-bottom: 2em;
+    font-size: 2em;
+    border-bottom: 3px solid #0071bc;
+    width: 50%;
+    text-align: center;
+    transform: translateX(50%);
+}
+
+.botao_senha_cadastro{
+    width:10.5em;
+    background-color: #0071bc;
+    height: 3em;
+    margin-bottom: 1em;
+    margin-right: 0.9em;
+    border-radius: 0;
+    padding: 1em  1em 1em 3em;
+    color: white;
+}
+.botao_contato_cadastro{
+    width: 10.5em;
+    background-color: #0071bc;
+    height: 3em;
+    margin-bottom: 2em;
+    text-align: center;
+    float: right;
+    border-radius: 0;
+    padding-top: 1em;
+    color: white;
+}
+.senha_cadastro{
+    margin-left: 4em;
+    margin-bottom: 2em;
+    background-color: #0071bc;
+    border: none;
+    height: 2em;
+    padding: 1em;
+    width: 90%;  
+}
+.data_cadastro{
+    margin-bottom: 2em;
+    background-color: #0071bc;
+    border: none;
+    color: white;
+    height: 2em;
+    padding-left: 1em;
+    width: 30%;
+    margin-left: 0.5em;
+}
+.cep_cadastro{
+    margin-bottom: 2em;
+    background-color: #0071bc;
+    border: none;
+    height: 2em;
+    padding: 1em;
+    width: 46%;
+    margin-left: 4em; 
+}
+.container2{
+    padding-left: 3em;
+}
+.cidade_cadastro{
+    margin-bottom: 2em;
+    background-color: #0071bc;
+    border: none;
+    height: 2em;
+    padding: 1em;
+    width: 31.2%;
+    margin-left: 0.5em; 
+}
+.telefone_cadastro{
+    margin-bottom: 2em;
+    background-color: #0071bc;
+    border: none;
+    height: 2em;
+    padding: 1em;
+    width: 57.3%;
+    margin-left: 4em;  
+}
+.endereco_cadastro{
+    margin-bottom: 2em;
+    background-color: #0071bc;
+    border: none;
+    height: 2em;
+    padding: 1em;
+    width:89.5%;
+    margin-left: 4em;  
+}
+.confirmarsenha_cadastro{
+    margin-left: 4em;
+    margin-bottom: 2em;
+    background-color: #0071bc;
+    border: none;
+    height: 2em;
+    padding: 1em;
+    width: 90%;  
+}
+.unidades_federativas{
+    border: none;
+    background-color: #0071bc;
+    color: white;
+    height: 2em;
+    margin-left: 0.5em;
+    width: 8%;
+}
+.botao_voltar_formulario{
+    background-color: transparent;
+    color:white;
+    border: 2px solid #0071bc;
+    text-align: center;
+    padding-top: 3px;
+    height: 2em;
+    width: 9em;
+    float: left;
+    margin-left: 4em;
+    border-radius: 0;
+}
+.botao_proximo_formulario_senha{
+    background-color: transparent;
+    color:white;
+    border: 2px solid #0071bc;
+    text-align: center;
+    padding-top: 3px;
+    height: 2em;
+    width: 9em;
+    float: right;
+    border-radius: 0;
+}
+.botao_proximo_formulario_dados{
+    background-color: transparent;
+    color:white;
+    border: 2px solid #0071bc;
+    text-align: center;
+    padding-top: 3px;
+    height: 2em;
+    width: 9em;
+    float: right;
+    border-radius: 0;
+}
+.botao_voltar_formulario_senha{
+    background-color: transparent;
+    color:white;
+    border: 2px solid #0071bc;
+    text-align: center;
+    padding-top: 3px;
+    height: 2em;
+    width: 9em;
+    float: left;
+    margin-left: 4em;
+    border-radius: 0;
+}
+.enviar_formulario{
+    background-color: transparent;
+    color:white;
+    border: 2px solid #0071bc;
+    text-align: center;
+    padding-top: 3px;
+    height: 2em;
+    width: 9em;
+    float: right;
+    border-radius: 0;
+}
+.nav_cadastro{
+    float: right;
+}
+.email{
+    margin-bottom: 2em;
+    background-color: #0071bc;
+    border: none;
+    height: 2em;
+    padding: 1em;
+    width: 88%;
+}
+.nome{
+    margin-left: 4em;
+    margin-bottom: 2em;
+    background-color: #0071bc;
+    border: none;
+    height: 2em;
+    padding: 1em;
+    width: 90%;  
+}
+.email_cadastro{
+    margin-left: 4em;
+    margin-bottom: 2em;
+    background-color: #0071bc;
+    border: none;
+    height: 2em;
+    padding: 1em;
+    width: 90%;
+}
+.CPF{
+    margin-left: 4em;
+    margin-bottom: 2em;
+    background-color: #0071bc;
+    border: none;
+    height: 2em;
+    padding: 1em;
+    width: 90%;
+}
+.RG{
+    margin-left: 4em;
+    margin-bottom: 2em;
+    background-color: #0071bc;
+    border: none;
+    height: 2em;
+    padding: 1em;
+    width: 90%;
+}
+.botao{
+    background-color: transparent;
+    color:white;
+    border: 2px solid #0071bc;
+    text-align: center;
+    padding-top: 3px;
+    height: 2em;
+    width: 9em;
+    float: right;
+    margin-right: 4.5em;
+    border-radius: 0;
+}
+.botao_cadastro{
+    background-color: #181825;
+    color:white;
+    border-color: #0071bc;
+    border-width: 2px; 
+    width: 9em;
+    margin-left: 30.8em;
+}
+.senha{
+    margin-bottom: 2em;
+    background-color: #0071bc;
+    border: none;
+    height: 2em;
+    padding: 1em;
+    width: 88%;
+}
+.fundo{
+    width: 100%;
+    height: 10em;
+}
+#imagem{
+    width: 60%;
+    margin-top: -0.6em;
+}
+.navbar-inverse{
+    background-color: rgba(128,128,129,0.8);
+    border: none;
+    z-index: 1;
+    position: fixed;
+    width: 100%;    
+    border-radius: 0;
+}
+.navbar
+.navbar-nav li a{
+    color: white;
+}
+#paragrafo_cadastro{
+    color: white;
+    padding: 1em 1em 1em 2.5em;
+}
+#paragrafo_senha_cadastro{
+    color: white;
+    padding: 1em 1em 1em 3em;
+}
+.linhavertical {
+    border-left: 3px solid #0071bc ;
+    height: 600px;
+    margin-left: 50%;
+    margin-top: -30rem;
+    position:;
+}
+@media(max-width: 1199px) {
+.botao_dados_cadastro{
+    width: 9.2em;
+    background-color: #0071bc;
+    height: 3em;
+    margin-bottom: 2em;
+ 
+    border-radius: 0;
+    padding: 1em  1em 1em 3em;
+    color: white;
+}
+.endereco_cadastro {
+    margin-bottom: 2em;
+    background-color: #0071bc;
+    border: none;
+    height: 2em;
+    padding: 1em;
+    width: 88%;
+    margin-left: 4em;
+}
+.cep_cadastro {
+    margin-bottom: 2em;
+    background-color: #0071bc;
+    border: none;
+    height: 2em;
+    padding: 1em;
+    width: 44%;
+    margin-left: 4em;
+}
+.telefone_cadastro {
+    margin-bottom: 2em;
+    background-color: #0071bc;
+    border: none;
+    height: 2em;
+    padding: 1em;
+    width: 55.4%;
+    margin-left: 4em;
+}
+    .email{
+    margin-bottom: 2em;
+    background-color: #0071bc;
+    border: none;
+    height: 2em;
+    padding: 1em;
+    width: 88%;
+}
+.nome{
+    margin-left: 4em;
+    margin-bottom: 2em;
+    background-color: #0071bc;
+    border: none;
+    height: 2em;
+    padding: 1em;
+    width: 88%;  
+}
+.email_cadastro{
+    margin-left: 4em;
+    margin-bottom: 2em;
+    background-color: #0071bc;
+    border: none;
+    height: 2em;
+    padding: 1em;
+    width: 88%;
+}
+.CPF{
+    margin-left: 4em;
+    margin-bottom: 2em;
+    background-color: #0071bc;
+    border: none;
+    height: 2em;
+    padding: 1em;
+    width: 88%;
+}
+.RG{
+    margin-left: 4em;
+    margin-bottom: 2em;
+    background-color: #0071bc;
+    border: none;
+    height: 2em;
+    padding: 1em;
+    width: 88%;
+}
+    .senha_cadastro{
+   margin-left: 4em;
+    margin-bottom: 2em;
+    background-color: #0071bc;
+    border: none;
+    height: 2em;
+    padding: 1em;
+    width: 88%;  
+}
+.confirmarsenha_cadastro{
+   margin-left: 4em;
+    margin-bottom: 2em;
+    background-color: #0071bc;
+    border: none;
+    height: 2em;
+    padding: 1em;
+    width: 88%;   
+}
+.botao_senha_cadastro{
+    width:9.2em;
+    background-color: #0071bc;
+    height: 3em;
+    margin-bottom: 1em;
+    border-radius: 0;
+    padding: 1em  1em 1em 3em;
+    color: white;
+}
+.botao_contato_cadastro{
+    width: 9.2em;
+    background-color: #0071bc;
+    height: 3em;
+    margin-bottom: 2em;
+    float: right;
+    border-radius: 0;
+    padding-top: 1em;
+    color: white;
+}
+.container2{
+    padding-left: 0em;
+}
+}
+@media(max-width: 991px) {
+    .linhavertical {
+    border-left: 0px solid #0071bc ;
+    height: 0px;
+    }
+    .CPF{
+    margin-bottom: 2em;
+    background-color: #0071bc;
+    border: none;
+    height: 2em;
+    padding: 1em;
+    width: 88%;
+    float: right;
+}
+.endereco_cadastro {
+    margin-bottom: 2em;
+    background-color: #0071bc;
+    border: none;
+    height: 2em;
+    padding: 1em;
+    width: 87%;
+    margin-left: 4em;
+}
+.email{
+    float: right;
+}
+.botao{    
+    background-color: transparent;
+    color:white;
+    border: 2px solid #0071bc;
+    text-align: center;
+    padding-top: 3px;
+    height: 2em;
+    width: 9em;
+    float: right;
+    margin-right: 0em;
+    border-radius: 0;
+    }
+
+.nome{
+    margin-left: 4em;
+    margin-bottom: 2em;
+    background-color: #0071bc;
+    border: none;
+    height: 2em;
+    padding: 1em;
+    float: right;
+    width: 88%;  
+}
+.email_cadastro{
+    margin-left: 4em;
+    margin-bottom: 2em;
+    background-color: #0071bc;
+    border: none;
+    height: 2em;
+    padding: 1em;
+    width: 88%;
+    float: right;
+}
+.senha{
+    margin-bottom: 2em;
+    background-color: #0071bc;
+    border: none;
+    height: 2em;
+    padding: 1em;
+    width: 88%;
+    float: right;
+}
+.RG{
+    float: right;
+   position: center;
+    margin-bottom: 2em;
+    background-color: #0071bc;
+    border: none;
+    height: 2em;
+    padding: 1em;
+    width: 88%;
+}
+.botao_senha_cadastro{
+    float: left;
+    width:9.2em;
+    background-color: #0071bc;
+    height: 3em;
+    margin-bottom: 1em;
+    border-radius: 0;
+    padding: 1em  1em 1em 3em;
+    color: white;
+}
+.botao_contato_cadastro{
+    float: left;
+    width: 9.2em;
+    background-color: #0071bc;
+    height: 3em;
+    margin-bottom: 2em;
+    float: right;
+    border-radius: 0;
+    padding-top: 1em;
+    color: white;
+}
+.entrar_banner{
+    color: #0071bc;
+     margin-bottom: 2em;
+    font-size: 2em;
+    border-bottom: 3px solid #0071bc;
+    margin-left: 5%;
+    width: 50%;
+    text-align: center;
+    transform: translateX(50%);
+
+}
+
+    .senha_cadastro{
+    float: right;
+   position: center;
+    margin-bottom: 2em;
+    background-color: #0071bc;
+    border: none;
+    height: 2em;
+    padding: 1em;
+    width: 88%;
+}
+.confirmarsenha_cadastro{
+    float: right;
+   position: center;
+    margin-bottom: 2em;
+    background-color: #0071bc;
+    border: none;
+    height: 2em;
+    padding: 1em;
+    width: 88%; 
+}
+}
+@media(max-width: 680px) {
+    .botao_senha_cadastro{
+    width:7.2em;
+    background-color: #0071bc;
+    height: 3em;
+    margin-bottom: 1em;
+    border-radius: 0;
+    padding: 1em  1em 1em 2em;
+    color: white;
+}
+.botao_contato_cadastro{
+    float: left;
+    width: 7.2em;
+    background-color: #0071bc;
+    height: 3em;
+    margin-bottom: 2em;
+    border-radius: 0;
+    padding-top: 1em;
+    color: white;
+}
+.botao_dados_cadastro{
+    width: 7.2em;
+    background-color: #0071bc;
+    height: 3em;
+    margin-bottom: 2em;
+    margin-left:0em;
+    border-radius: 0;
+    padding: 1em  1em 1em 2em;
+    color: white;
+}    
+}
+@media(max-width: 570px) {
+    .inscrevase_banner {
+    margin-left: -2em;
+    margin-top: 2em;
+    color: #0071bc;
+    margin-bottom: 1em;
+    font-size: 2em;
+    border-bottom: 3px solid #0071bc;
+    width: 65%;
+    text-align: center;
+    transform: translateX(50%);
+}
+    .botao_senha_cadastro{
+    width:7.2em;
+    background-color: #0071bc;
+    height: 3em;
+    margin-bottom: 1em;
+    border-radius: 0;
+    padding: 1em  1em 1em 2em;
+    color: white;
+}
+.inscrevase_banner{
+    margin-top: 2em;
+    color: #0071bc;
+     margin-bottom: 1em;
+    font-size: 2em;
+    border-bottom: 3px solid #0071bc;
+    width: 65%;
+    text-align: center;
+    transform: translateX(50%);
+}
+.botao_contato_cadastro{
+    margin-right: -7em;
+    float: left;
+    width: 7.2em;
+    background-color: #0071bc;
+    height: 3em;
+    margin-bottom: 2em;
+    border-radius: 0;
+    padding-top: 1em;
+    color: white;
+}
+.botao_dados_cadastro{
+    width: 7.2em;
+    background-color: #0071bc;
+    height: 3em;
+    margin-bottom: 2em;
+    border-radius: 0;
+    padding: 1em  1em 1em 2em;
+    color: white;
+}    
+}
+@media(max-width: 487px) {
+    .botao_senha_cadastro{
+    width:7.2em;
+    background-color: #0071bc;
+    height: 3em;
+    margin-bottom: 1em;
+    border-radius: 0;
+    padding: 1em  1em 1em 2em;
+    color: white;
+}
+.botao_contato_cadastro{
+    float: left;
+    width: 6.8em;
+    background-color: #0071bc;
+    height: 3em;
+    margin-bottom: 2em;
+    border-radius: 0;
+    padding-top: 1em;
+    margin-right: 1.6em;
+    color: white;
+}
+.botao_dados_cadastro{
+    width: 6.7em;
+    background-color: #0071bc;
+    height: 3em;
+    margin-bottom: 2em;
+    border-radius: 0;
+    padding: 1em  1em 1em 1.7em;
+    color: white;
+}
+
+.telefone_cadastro{
+    margin-bottom: 2em;
+    background-color: #0071bc;
+    border: none;
+    height: 2em;
+    padding: 1em;
+    width: 80%;
+    margin-left: 4em;  
+}
+.data_cadastro{
+    margin-bottom: 2em;
+    background-color: #0071bc;
+    border: none;
+    color: white;
+    height: 2em;
+    padding-left: 1em;
+    width: 80%;
+    margin-left: 4em;
+}
+    .endereco_cadastro {
+    margin-bottom: 2em;
+    background-color: #0071bc;
+    border: none;
+    height: 2em;
+    padding: 1em;
+    width: 80%;
+    margin-left: 4em;
+}
+.cep_cadastro{
+    margin-bottom: 2em;
+    background-color: #0071bc;
+    border: none;
+    height: 2em;
+    padding: 1em;
+    width: 35.5%;
+    margin-left: 4em; 
+}
+
+}
+
+@media(max-width: 390px) {
+    .inscrevase_banner {
+    margin-left: -1.5em;
+    margin-top: 2em;
+    color: #0071bc;
+    margin-bottom: 1em;
+    font-size: 2em;
+    border-bottom: 3px solid #0071bc;
+    width: 65%;
+    text-align: center;
+    transform: translateX(50%);
+}
+    #imagem{
+        width: 60%;
+        margin-top: -3.2em;
+    }
+.botao_senha_cadastro{
+    width: 5.8em;
+    background-color: #0071bc;
+    height: 3em;
+    margin-bottom: 1em;
+    border-radius: 0;
+    padding: 1em  1em 1em 1em;
+}
+.botao_contato_cadastro{
+    width: 5.8em;
+    background-color: #0071bc;
+    height: 3em;
+    margin-bottom: 2em;
+    border-radius: 0;
+    margin-right: 1.5em;
+    padding-top: 1em;
+    color: white;
+}
+.botao_dados_cadastro{
+    width: 5.8em;
+    background-color: #0071bc;
+    height: 3em;
+    margin-bottom: 2em;
+    border-radius: 0;
+    padding: 1em  1em 1em 1em;
+    color: white;
+} 
+}
+@media(max-width: 347px) {
+.inscrevase_banner {
+    margin-left: -1.5em;
+    margin-top: 2em;
+    color: #0071bc;
+    margin-bottom: 1em;
+    font-size: 2em;
+    border-bottom: 3px solid #0071bc;
+    width: 65%;
+    text-align: center;
+    transform: translateX(50%);
+}
+.botao_senha_cadastro{
+    width:5.2em;
+    background-color: #0071bc;
+    height: 3em;
+    margin-bottom: 1em;
+    border-radius: 0;
+    padding: 1em  1em 1em 1em;
+    color: white;
+}
+.botao_contato_cadastro{
+    width: 5.2em;
+    background-color: #0071bc;
+    height: 3em;
+    margin-bottom: 2em;
+    border-radius: 0;
+    padding-top: 1em;
+    margin-right: 1em;
+    color: white;
+}
+.botao_dados_cadastro{
+    width: 5.2em;
+    background-color: #0071bc;
+    height: 3em;
+    margin-bottom: 2em;
+    border-radius: 0;
+    padding: 1em  1em 1em 1em;
+    color: white;
+} 
+    .telefone_cadastro{
+    margin-bottom: 2em;
+    background-color: #0071bc;
+    border: none;
+    height: 2em;
+    padding: 1em;
+    width: 81%;
+    margin-left: 3em;  
+}
+.data_cadastro{
+    margin-bottom: 2em;
+    background-color: #0071bc;
+    border: none;
+    color: white;
+    height: 2em;
+    padding-left: 1em;
+    width: 81%;
+    margin-left: 3em;
+}
+    .endereco_cadastro {
+    margin-bottom: 2em;
+    background-color: #0071bc;
+    border: none;
+    height: 2em;
+    padding: 1em;
+    width: 81%;
+    margin-left: 3em;
+}
+.cep_cadastro{
+    margin-bottom: 2em;
+    background-color: #0071bc;
+    border: none;
+    height: 2em;
+    padding: 1em;
+    width: 81%;
+    margin-left: 3em; 
+}
+.cidade_cadastro{
+    margin-bottom: 2em;
+    background-color: #0071bc;
+    border: none;
+    height: 2em;
+    padding: 1em;
+    width: 64.2%;
+    margin-left: 3em; 
+}
+.unidades_federativas{
+    border: none;
+    background-color: #0071bc;
+    color: white;
+    height: 2em;
+    margin-left: 0.5em;
+    width: 13%;
+}
+.botao_voltar_formulario {
+    background-color: transparent;
+    color: white;
+    border: 2px solid #0071bc;
+    text-align: center;
+    padding-top: 3px;
+    height: 2em;
+    width: 9em;
+    float: left;
+    margin-left: 1em;
+    border-radius: 0;
+}
+.botao_voltar_formulario_senha {
+    background-color: transparent;
+    color: white;
+    border: 2px solid #0071bc;
+    text-align: center;
+    padding-top: 3px;
+    height: 2em;
+    width: 9em;
+    float: left;
+    margin-left: 1em;
+    border-radius: 0;
+}
+    
+}

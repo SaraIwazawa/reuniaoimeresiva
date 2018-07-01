@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+      <link rel="shortcut icon" href="Img/campfire.png">
+      <meta charset="utf-8">
+      <title>Login</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="Css/login.css">
+        
+        <header>
+            <nav class="navbar navbar-inverse">
+              <div class="container-fluid">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                        
+                  </button>
+                  <a class="navbar-brand" href="index.html"><img id="imagem" src="Img/Ativo%202.png"></a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">SOBRE</a></li>
+                    <li><a href="#">PALESTRANTES</a></li>
+                    <li><a href="#">ORGANIZADORES</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> ENTRAR</a></li>
+                    </ul>
+                </div>
+              </div>
+            </nav>
+        </header>    
+</head>
+    <body>
+        <div class="fundo"></div>
+        <div class="titulos">
+
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                        <form action="#php">
+                             <div class="entrar_banner">ENTRAR</div>
+                            <input class="email" type="email" name="email" placeholder="E-mail">
+                            <input class="senha" type="password" name="senha" placeholder="Senha">
+                        </form>
+                    <a class="btn botao" type="submit" href="#" value="ENTRAR">ENTRAR</a>
+                </div>
+                <div class="col-md-6 container2">
+                    <ul class="nav nav-pills nav_cadastro">
+                        <div class="inscrevase_banner">Inscreva-se</div>
+                            <li class="botao_dados_cadastro"  href=#home>DADOS</li>
+                            <li class=" botao_senha_cadastro "  href="#menu1">SENHA</li>
+                            <li class="btn botao_contato_cadastro"  href="#menu2">CONTATO</li>
+                      </ul>
+                    <div class="tab-content">
+                        <div id="home" class="tab-pane fade in active">
+                            <input class="nome" type="text" name="nome" placeholder="Nome">
+                            <input class="email_cadastro" type="email" name="email" placeholder="E-mail">
+                            <input class="CPF" type="num" name="CPF" placeholder="CPF">
+                            <input class="RG" type="text" name="RG" placeholder="RG">
+                            <a class="btn botao_proximo_formulario_dados" href="#menu1" data-toggle="tab"  class="active botao_cadastro">Próximo</a> 
+                        </div>
+                        <div id="menu1" class="tab-pane fade">
+                        <div id="home" class="tab-pane fade in active">
+                            <input class="senha_cadastro" type="password" name="senha" placeholder="Senha">
+                            <input class="confirmarsenha_cadastro" type="password" name="senha" placeholder="Confirmar Senha">
+                            <a class="btn botao_proximo_formulario_senha" href="#menu2" data-toggle="tab"  class="active botao_cadastro">Próximo</a>
+                            <a class="btn botao_voltar_formulario_senha" href="#home" data-toggle="tab"  class="active">Voltar</a> 
+                        </div>
+                        </div>
+                        <div id="menu2" class="tab-pane fade">
+                            <div id="home" class="tab-pane fade in active">
+                                <input class="telefone_cadastro" type="text" name="telefone" placeholder="Telefone">
+                                <input class="data_cadastro" type="date" name="data" placeholder="dd/mm/aa">  
+                                <input class="endereco_cadastro" type="text" name="endereco" placeholder="Endereço">
+                                <input class="cep_cadastro" type="text" name="cep" placeholder="CEP">
+                                <input class="cidade_cadastro" type="text" name="cidade" placeholder="Cidade">
+                                <select name="unidades_federativas" class="unidades_federativas">
+                                    <option value="UF" selected>UF</option>
+                                    <option value="acre">AC</option>
+                                    <option value="alagoas" >AL</option>
+                                    <option value="amapa">AP</option>
+                                    <option value="amazonas">AM</option>
+                                    <option value="bahia">BA</option>
+                                    <option value="ceara">CE</option>
+                                    <option value="disrito_federal">DF</option>
+                                    <option value="espirito_santo">ES</option>
+                                    <option value="goias">GO</option>
+                                    <option value="maranhao">MA</option>
+                                    <option value="mato_grosso">MT</option>
+                                    <option value="mato_grossodo_sul">MS</option>
+                                    <option value="minas_gerais">MG</option>
+                                    <option value="para">PA</option>
+                                    <option value="paraiba">PB</option>
+                                    <option value="parana">PR</option>
+                                    <option value="pernambuco">PE</option>
+                                    <option value="piaui">PI</option>
+                                    <option value="rio_de_janeiro">RJ</option>
+                                    <option value="rio_grande_do_norte">RN</option>
+                                    <option value="rio_grande_do_sul">RS</option>
+                                    <option value="rondonia">RO</option>
+                                    <option value="roraima">RR</option>
+                                    <option value="santa_catarina">SC</option>
+                                    <option value="sao_paulo">SP</option>
+                                    <option value="sergipe">SE</option>
+                                    <option value="tocantins">TO</option>
+                                </select>
+                                <br><br>
+                                <a class="btn botao_voltar_formulario" href="#menu1" data-toggle="tab"  class="active ">Voltar</a> 
+                                <input class="enviar_formulario" type="submit">
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    
+
+                </div>
+            </div>
+
+        <div class="linhavertical"></div>
+    </body>
+</html>
